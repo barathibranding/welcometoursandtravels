@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Welcome Tours and
+          Travels | Your Dream Vacation Is Finally Here. | Explore a variety of affordable tour packages from Chennai with Welcome Tours and Travels. Call us at 7373339933 to book your dream trip now! |"
+    />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/favicon.png" />
+
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Arizonia&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Font Awesome -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kalnia:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="/assets/css/style.css" rel="stylesheet" />
+
+    <title>Welcome Tours And Travels</title>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+    <!-- Insta feed -->
+    <script
+      src="https://static.elfsight.com/platform/platform.js"
+      data-use-service-core
+      defer
+    ></script>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="/assets/lib/easing/easing.min.js"></script>
+    <script src="/assets/lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="/assets/lib/tempusdominus/js/moment.min.js"></script>
+    <script src="/assets/lib/tempusdominus/js/moment-timezone.min.js"></script>
+    <script src="/assets/lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Contact Javascript File -->
+    <script src="/assets/mail/jqBootstrapValidation.min.js"></script>
+    <script src="/assets/mail/contact.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="/assets/js/main.js"></script>
+    <script>
+      "use strict";
+
+      /**
+       * navbar toggle
+       */
+
+      const overlay = document.querySelector("[data-overlay]");
+      const navOpenBtn = document.querySelector("[data-nav-open-btn]");
+      const navbar = document.querySelector("[data-navbar]");
+      const navCloseBtn = document.querySelector("[data-nav-close-btn]");
+      const navLinks = document.querySelectorAll("[data-nav-link]");
+
+      const navElemArr = [navOpenBtn, navCloseBtn, overlay];
+
+      const navToggleEvent = function (elem) {
+        for (let i = 0; i < elem.length; i++) {
+          elem[i].addEventListener("click", function () {
+            navbar.classList.toggle("active");
+            overlay.classList.toggle("active");
+          });
+        }
+      };
+
+      navToggleEvent(navElemArr);
+      navToggleEvent(navLinks);
+
+      /**
+       * header sticky & go to top
+       */
+
+      const header = document.querySelector("[data-header]");
+      const goTopBtn = document.querySelector("[data-go-top]");
+
+      window.addEventListener("scroll", function () {
+        if (window.scrollY >= 200) {
+          header.classList.add("active");
+          goTopBtn.classList.add("active");
+        } else {
+          header.classList.remove("active");
+          goTopBtn.classList.remove("active");
+        }
+      });
+    </script>
+    <script>
+      $(document).ready(function () {
+        // Activate carousel with touch support
+        $("#myCarousel-1").carousel({
+          interval: 3000, // Adjust interval as needed
+          touch: true, // Enable touch support
+        });
+      });
+    </script>
+  </body>
+</html>
