@@ -1,0 +1,1418 @@
+Traceback (most recent call last):
+  File "/home/welcometours/public_html/api/passenger_wsgi.py", line 4, in <module>
+    from main.wsgi import application
+  File "/home/welcometours/public_html/api/main/wsgi.py", line 12, in <module>
+    from django.core.wsgi import get_wsgi_application
+ModuleNotFoundError: No module named 'django'
+Traceback (most recent call last):
+  File "/home/welcometours/public_html/api/passenger_wsgi.py", line 4, in <module>
+    from main.wsgi import application
+  File "/home/welcometours/public_html/api/main/wsgi.py", line 12, in <module>
+    from django.core.wsgi import get_wsgi_application
+ModuleNotFoundError: No module named 'django'
+[UID:2803][27724] Child process with pid: 27731 was killed by signal: 15, core dumped: no
+Traceback (most recent call last):
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/db/backends/mysql/base.py", line 15, in <module>
+    import MySQLdb as Database
+ModuleNotFoundError: No module named 'MySQLdb'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/welcometours/public_html/api/passenger_wsgi.py", line 4, in <module>
+    from main.wsgi import application
+  File "/home/welcometours/public_html/api/main/wsgi.py", line 16, in <module>
+    application = get_wsgi_application()
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/core/wsgi.py", line 12, in get_wsgi_application
+    django.setup(set_prefix=False)
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/__init__.py", line 24, in setup
+    apps.populate(settings.INSTALLED_APPS)
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/apps/registry.py", line 116, in populate
+    app_config.import_models()
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/apps/config.py", line 269, in import_models
+    self.models_module = import_module(models_module_name)
+  File "/opt/alt/python39/lib64/python3.9/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/contrib/auth/models.py", line 3, in <module>
+    from django.contrib.auth.base_user import AbstractBaseUser, BaseUserManager
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/contrib/auth/base_user.py", line 57, in <module>
+    class AbstractBaseUser(models.Model):
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/db/models/base.py", line 143, in __new__
+    new_class.add_to_class("_meta", Options(meta, app_label))
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/db/models/base.py", line 371, in add_to_class
+    value.contribute_to_class(cls, name)
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/db/models/options.py", line 243, in contribute_to_class
+    self.db_table, connection.ops.max_name_length()
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/utils/connection.py", line 15, in __getattr__
+    return getattr(self._connections[self._alias], item)
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/utils/connection.py", line 62, in __getitem__
+    conn = self.create_connection(alias)
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/db/utils.py", line 193, in create_connection
+    backend = load_backend(db["ENGINE"])
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/db/utils.py", line 113, in load_backend
+    return import_module("%s.base" % backend_name)
+  File "/opt/alt/python39/lib64/python3.9/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/db/backends/mysql/base.py", line 17, in <module>
+    raise ImproperlyConfigured(
+django.core.exceptions.ImproperlyConfigured: Error loading MySQLdb module.
+Did you install mysqlclient?
+[UID:2803][27724] Child process with pid: 27890 was killed by signal: 15, core dumped: no
+Traceback (most recent call last):
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/db/backends/mysql/base.py", line 15, in <module>
+    import MySQLdb as Database
+ModuleNotFoundError: No module named 'MySQLdb'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/welcometours/public_html/api/passenger_wsgi.py", line 4, in <module>
+    from main.wsgi import application
+  File "/home/welcometours/public_html/api/main/wsgi.py", line 16, in <module>
+    application = get_wsgi_application()
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/core/wsgi.py", line 12, in get_wsgi_application
+    django.setup(set_prefix=False)
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/__init__.py", line 24, in setup
+    apps.populate(settings.INSTALLED_APPS)
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/apps/registry.py", line 116, in populate
+    app_config.import_models()
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/apps/config.py", line 269, in import_models
+    self.models_module = import_module(models_module_name)
+  File "/opt/alt/python39/lib64/python3.9/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/contrib/auth/models.py", line 3, in <module>
+    from django.contrib.auth.base_user import AbstractBaseUser, BaseUserManager
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/contrib/auth/base_user.py", line 57, in <module>
+    class AbstractBaseUser(models.Model):
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/db/models/base.py", line 143, in __new__
+    new_class.add_to_class("_meta", Options(meta, app_label))
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/db/models/base.py", line 371, in add_to_class
+    value.contribute_to_class(cls, name)
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/db/models/options.py", line 243, in contribute_to_class
+    self.db_table, connection.ops.max_name_length()
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/utils/connection.py", line 15, in __getattr__
+    return getattr(self._connections[self._alias], item)
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/utils/connection.py", line 62, in __getitem__
+    conn = self.create_connection(alias)
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/db/utils.py", line 193, in create_connection
+    backend = load_backend(db["ENGINE"])
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/db/utils.py", line 113, in load_backend
+    return import_module("%s.base" % backend_name)
+  File "/opt/alt/python39/lib64/python3.9/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/db/backends/mysql/base.py", line 17, in <module>
+    raise ImproperlyConfigured(
+django.core.exceptions.ImproperlyConfigured: Error loading MySQLdb module.
+Did you install mysqlclient?
+Traceback (most recent call last):
+  File "/home/welcometours/public_html/api/passenger_wsgi.py", line 4, in <module>
+    from main.wsgi import application
+  File "/home/welcometours/public_html/api/main/wsgi.py", line 16, in <module>
+    application = get_wsgi_application()
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/core/wsgi.py", line 12, in get_wsgi_application
+    django.setup(set_prefix=False)
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/__init__.py", line 24, in setup
+    apps.populate(settings.INSTALLED_APPS)
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/apps/registry.py", line 83, in populate
+    raise RuntimeError("populate() isn't reentrant")
+RuntimeError: populate() isn't reentrant
+[UID:2803][28211] Child process with pid: 28241 was killed by signal: 15, core dumped: no
+Traceback (most recent call last):
+  File "/home/welcometours/public_html/api/passenger_wsgi.py", line 4, in <module>
+    from main.wsgi import application
+  File "/home/welcometours/public_html/api/main/wsgi.py", line 16, in <module>
+    application = get_wsgi_application()
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/core/wsgi.py", line 12, in get_wsgi_application
+    django.setup(set_prefix=False)
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/__init__.py", line 24, in setup
+    apps.populate(settings.INSTALLED_APPS)
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/apps/registry.py", line 83, in populate
+    raise RuntimeError("populate() isn't reentrant")
+RuntimeError: populate() isn't reentrant
+[UID:2803][28211] Child process with pid: 29427 was killed by signal: 15, core dumped: no
+Traceback (most recent call last):
+  File "/home/welcometours/public_html/api/passenger_wsgi.py", line 4, in <module>
+    from main.wsgi import application
+  File "/home/welcometours/public_html/api/main/wsgi.py", line 16, in <module>
+    application = get_wsgi_application()
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/core/wsgi.py", line 12, in get_wsgi_application
+    django.setup(set_prefix=False)
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/__init__.py", line 24, in setup
+    apps.populate(settings.INSTALLED_APPS)
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/apps/registry.py", line 83, in populate
+    raise RuntimeError("populate() isn't reentrant")
+RuntimeError: populate() isn't reentrant
+[UID:2803][28211] Child process with pid: 29605 was killed by signal: 15, core dumped: no
+Traceback (most recent call last):
+  File "/home/welcometours/public_html/api/passenger_wsgi.py", line 4, in <module>
+    from main.wsgi import application
+  File "/home/welcometours/public_html/api/main/wsgi.py", line 16, in <module>
+    application = get_wsgi_application()
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/core/wsgi.py", line 12, in get_wsgi_application
+    django.setup(set_prefix=False)
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/__init__.py", line 24, in setup
+    apps.populate(settings.INSTALLED_APPS)
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/apps/registry.py", line 83, in populate
+    raise RuntimeError("populate() isn't reentrant")
+RuntimeError: populate() isn't reentrant
+[UID:2803][28211] Child process with pid: 29721 was killed by signal: 15, core dumped: no
+Not Found: /api/
+Internal Server Error: /api/api/category-list/
+Traceback (most recent call last):
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/db/backends/base/base.py", line 289, in ensure_connection
+    self.connect()
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/utils/asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/db/backends/base/base.py", line 270, in connect
+    self.connection = self.get_new_connection(conn_params)
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/utils/asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/db/backends/mysql/base.py", line 247, in get_new_connection
+    connection = Database.connect(**conn_params)
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib64/python3.9/site-packages/MySQLdb/__init__.py", line 121, in Connect
+    return Connection(*args, **kwargs)
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib64/python3.9/site-packages/MySQLdb/connections.py", line 193, in __init__
+    super().__init__(*args, **kwargs2)
+MySQLdb.OperationalError: (1044, "Access denied for user 'welcometours_tours'@'localhost' to database 'welcometours_tours'")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/rest_framework/generics.py", line 203, in get
+    return self.list(request, *args, **kwargs)
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/rest_framework/mixins.py", line 46, in list
+    return Response(serializer.data)
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/rest_framework/serializers.py", line 795, in data
+    ret = super().data
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/rest_framework/serializers.py", line 249, in data
+    self._data = self.to_representation(self.instance)
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/rest_framework/serializers.py", line 713, in to_representation
+    return [
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/db/models/query.py", line 398, in __iter__
+    self._fetch_all()
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/db/models/query.py", line 1881, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/db/models/query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/db/models/sql/compiler.py", line 1560, in execute_sql
+    cursor = self.connection.cursor()
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/utils/asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/db/backends/base/base.py", line 330, in cursor
+    return self._cursor()
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/db/backends/base/base.py", line 306, in _cursor
+    self.ensure_connection()
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/utils/asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/db/backends/base/base.py", line 289, in ensure_connection
+    self.connect()
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/db/backends/base/base.py", line 289, in ensure_connection
+    self.connect()
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/utils/asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/db/backends/base/base.py", line 270, in connect
+    self.connection = self.get_new_connection(conn_params)
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/utils/asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/db/backends/mysql/base.py", line 247, in get_new_connection
+    connection = Database.connect(**conn_params)
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib64/python3.9/site-packages/MySQLdb/__init__.py", line 121, in Connect
+    return Connection(*args, **kwargs)
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib64/python3.9/site-packages/MySQLdb/connections.py", line 193, in __init__
+    super().__init__(*args, **kwargs2)
+django.db.utils.OperationalError: (1044, "Access denied for user 'welcometours_tours'@'localhost' to database 'welcometours_tours'")
+Not Found: /api/images/uploads/Packages/himachal_01.jpg
+Not Found: /api/images/uploads/Packages/arunachal.jpg
+Not Found: /api/images/uploads/Packages/syndey.webp
+Not Found: /api/images/uploads/Packages/fijii.webp
+Not Found: /api/images/uploads/Packages/perth.webp
+Not Found: /api/images/uploads/Packages/newsland.webp
+Not Found: /api/images/uploads/Packages/quensland.webp
+Not Found: /api/images/uploads/Packages/rajasthan.jpg
+Not Found: /api/images/uploads/Packages/melbourne.webp
+Not Found: /api/images/uploads/Packages/tamilnadu-01.jpg
+Not Found: /api/images/uploads/Packages/kerala.jpg
+Not Found: /api/images/uploads/Packages/goa_1.jpg
+Not Found: /api/images/uploads/Packages/assam.jpg
+Not Found: /api/images/uploads/Packages/maritius.jpg
+Not Found: /api/images/uploads/Packages/lakshadweep.webp
+Not Found: /api/images/uploads/Packages/pondi.jpg
+Not Found: /api/images/uploads/Packages/lakshadweep.jpg
+Not Found: /api/images/uploads/Packages/indonesia.jpg
+Not Found: /api/images/uploads/Packages/singapore.webp
+Not Found: /api/images/uploads/Packages/srilanka.jpg
+Not Found: /api/images/uploads/Packages/Nepal-home.jpg
+Not Found: /api/images/uploads/Packages/France.jpg
+Not Found: /api/images/uploads/Packages/italy_2_xtGUq5x.webp
+Not Found: /api/images/uploads/Packages/iceland_nM1FsuW.webp
+Not Found: /api/images/uploads/Packages/sweden_2.webp
+Not Found: /api/images/uploads/Packages/creek-6162592_640.jpg
+Not Found: /api/images/uploads/Packages/turkey_01.webp
+Not Found: /api/images/uploads/Packages/norway.webp
+Not Found: /api/images/uploads/Packages/denmark.webp
+Not Found: /api/images/uploads/Packages/qatar.jpg
+Not Found: /api/images/uploads/Packages/abu-dhabi.jpg
+Not Found: /api/images/uploads/Packages/iceland_w3HIGkI.webp
+Not Found: /api/images/uploads/Packages/norway_mpHUU8U.webp
+Not Found: /api/images/uploads/Packages/finland.webp
+Not Found: /api/images/uploads/Packages/bahrain.jpg
+Not Found: /api/images/uploads/Packages/dubai.webp
+Not Found: /api/images/uploads/Packages/saudi.jpg
+Not Found: /api/images/uploads/LatestTours/thailand_1.jpg
+Not Found: /api/images/uploads/LatestTours/varanasi.jpg
+Not Found: /api/images/uploads/LatestTours/maldives_w.jpg
+Not Found: /api/images/uploads/LatestTours/vietnam.jpg
+Not Found: /api/images/uploads/LatestTours/Wayanad.jpg
+Not Found: /api/images/uploads/LatestTours/cochin_kumarakom.jpg
+Not Found: /api/images/uploads/LatestTours/mysore.jpg
+Not Found: /api/images/uploads/LatestTours/GEORGIA_4.3.jpg
+Not Found: /api/images/uploads/LatestTours/anfaman__nicobar_1.jpg
+Not Found: /api/images/uploads/LatestTours/agra_1.jpg
+Not Found: /api/images/uploads/LatestTours/armania_1350_1.jpg
+Not Found: /api/images/uploads/LatestTours/jaipur_1.jpg
+Not Found: /api/images/uploads/LatestTours/hyderabad.jpg
+Not Found: /api/images/uploads/LatestTours/karnataka_tour.jpg
+Not Found: /api/images/uploads/LatestTours/haridwar_rishikesh.jpg
+Not Found: /api/images/uploads/LatestTours/Lakshadweep_1.jpg
+Not Found: /api/images/uploads/LatestTours/pondicherry_w.jpg
+Not Found: /api/images/uploads/LatestTours/pattaya_bangkok.jpg
+Not Found: /api/images/uploads/LatestTours/shiridi.jpg
+Not Found: /api/images/uploads/LatestTours/south_india_tour_1.jpg
+Not Found: /api/images/uploads/LatestTours/Srilanka__1080_W.jpg
+Not Found: /api/images/uploads/Packages/kerala.jpg
+Not Found: /api/images/uploads/Packages/tamilnadu-01.jpg
+Not Found: /api/images/uploads/Packages/pondi.jpg
+Not Found: /api/images/uploads/Packages/lakshadweep.jpg
+Not Found: /api/images/uploads/Packages/goa_1.jpg
+Not Found: /api/images/uploads/Packages/rajasthan.jpg
+Not Found: /api/images/uploads/Packages/arunachal.jpg
+Not Found: /api/images/uploads/Packages/himachal_01.jpg
+Not Found: /api/images/uploads/Packages/italy_2_xtGUq5x.webp
+Not Found: /api/images/uploads/Packages/turkey_01.webp
+Not Found: /api/images/uploads/Packages/assam.jpg
+Not Found: /api/images/uploads/Packages/creek-6162592_640.jpg
+Not Found: /api/images/uploads/Packages/France.jpg
+Not Found: /api/images/uploads/Packages/iceland_nM1FsuW.webp
+Not Found: /api/images/uploads/LatestTours/thailand_1.jpg
+Not Found: /api/images/uploads/LatestTours/varanasi.jpg
+Not Found: /api/images/uploads/LatestTours/vietnam.jpg
+Not Found: /api/images/uploads/LatestTours/Wayanad.jpg
+Not Found: /api/images/uploads/LatestTours/cochin_kumarakom.jpg
+Not Found: /api/images/uploads/LatestTours/hyderabad.jpg
+Not Found: /api/images/uploads/LatestTours/armania_1350_1.jpg
+Not Found: /api/images/uploads/LatestTours/mysore.jpg
+Not Found: /api/images/uploads/LatestTours/anfaman__nicobar_1.jpg
+Not Found: /api/images/uploads/LatestTours/maldives_w.jpg
+Not Found: /api/images/uploads/LatestTours/karnataka_tour.jpg
+Not Found: /api/images/uploads/LatestTours/jaipur_1.jpg
+Not Found: /api/images/uploads/LatestTours/Lakshadweep_1.jpg
+Not Found: /api/images/uploads/LatestTours/shiridi.jpg
+Not Found: /api/images/uploads/Packages/lakshadweep.webp
+Not Found: /api/images/uploads/LatestTours/pattaya_bangkok.jpg
+Not Found: /api/images/uploads/LatestTours/south_india_tour_1.jpg
+Not Found: /api/images/uploads/Packages/maritius.jpg
+Not Found: /api/images/uploads/LatestTours/pondicherry_w.jpg
+Not Found: /api/images/uploads/Packages/syndey.webp
+Not Found: /api/images/uploads/Packages/quensland.webp
+Not Found: /api/images/uploads/Packages/fijii.webp
+Not Found: /api/images/uploads/Packages/melbourne.webp
+Not Found: /api/images/uploads/Packages/norway_mpHUU8U.webp
+Not Found: /api/images/uploads/Packages/finland.webp
+Not Found: /api/images/uploads/LatestTours/GEORGIA_4.3.jpg
+Not Found: /api/images/uploads/LatestTours/agra_1.jpg
+Not Found: /api/images/uploads/Packages/iceland_w3HIGkI.webp
+Not Found: /api/images/uploads/LatestTours/haridwar_rishikesh.jpg
+Not Found: /api/images/uploads/LatestTours/Srilanka__1080_W.jpg
+Not Found: /api/images/uploads/Packages/indonesia.jpg
+Not Found: /api/images/uploads/Packages/singapore.webp
+Not Found: /api/images/uploads/Packages/srilanka.jpg
+Not Found: /api/images/uploads/Packages/norway.webp
+Not Found: /api/images/uploads/Packages/newsland.webp
+Not Found: /api/images/uploads/Packages/sweden_2.webp
+Not Found: /api/images/uploads/Packages/denmark.webp
+Not Found: /api/images/uploads/Packages/perth.webp
+Not Found: /api/images/uploads/Packages/Nepal-home.jpg
+Not Found: /api/images/uploads/Packages/bahrain.jpg
+Not Found: /api/images/uploads/Packages/qatar.jpg
+Not Found: /api/images/uploads/Packages/abu-dhabi.jpg
+Not Found: /api/images/uploads/Packages/dubai.webp
+Not Found: /api/images/uploads/Packages/saudi.jpg
+Not Found: /api/images/uploads/Packages/825_madurai_iBHMtNB.jpg
+Not Found: /api/images/uploads/Packages/madurai_kXRvi8v.jpg
+Not Found: /api/images/uploads/Packages/827_madurai_1.jpg
+Not Found: /api/images/uploads/Packages/kanyakumari3.jpg
+Not Found: /api/images/uploads/Packages/kanyakumari3.jpg
+Not Found: /api/images/uploads/Packages/827_madurai_1.jpg
+Not Found: /api/images/uploads/Packages/825_madurai_iBHMtNB.jpg
+Not Found: /api/images/uploads/Packages/madurai_kXRvi8v.jpg
+Not Found: /api/images/uploads/Packages/madurai_kXRvi8v.jpg
+Not Found: /api/images/uploads/Packages/825_madurai_iBHMtNB.jpg
+Not Found: /api/images/uploads/Packages/827_madurai_1.jpg
+Not Found: /api/images/uploads/Packages/kanyakumari3.jpg
+Not Found: /api/images/uploads/TripHighlights/tamilnadu-01.jpg
+Not Found: /api/images/uploads/TripHighlights/Rameshwaram.jpg
+Not Found: /api/images/uploads/Packages/madurai_kXRvi8v.jpg
+Not Found: /api/images/uploads/TripHighlights/kodaikanal.jpg
+Not Found: /api/images/uploads/images/madurai1.jpg
+Not Found: /api/images/uploads/images/rameshwaram1.jpg
+Not Found: /api/images/uploads/Packages/goa_1.jpg
+Not Found: /api/images/uploads/images/madurai_2.jpg
+Not Found: /api/images/uploads/Packages/arunachal.jpg
+Not Found: /api/images/uploads/Packages/rajasthan.jpg
+Not Found: /api/images/uploads/Packages/himachal_01.jpg
+Not Found: /api/images/uploads/Packages/assam.jpg
+Not Found: /api/images/uploads/Packages/iceland_nM1FsuW.webp
+Not Found: /api/images/uploads/Packages/France.jpg
+Not Found: /api/images/uploads/Packages/himachal_01.jpg
+Not Found: /api/images/uploads/Packages/tamilnadu-01.jpg
+Not Found: /api/images/uploads/Packages/goa_1.jpg
+Not Found: /api/images/uploads/Packages/kerala.jpg
+Not Found: /api/images/uploads/Packages/pondi.jpg
+Not Found: /api/images/uploads/Packages/lakshadweep.jpg
+Not Found: /api/images/uploads/Packages/arunachal.jpg
+Not Found: /api/images/uploads/Packages/rajasthan.jpg
+Not Found: /api/images/uploads/Packages/assam.jpg
+Not Found: /api/images/uploads/LatestTours/thailand_1.jpg
+Not Found: /api/images/uploads/Packages/creek-6162592_640.jpg
+Not Found: /api/images/uploads/LatestTours/vietnam.jpg
+Not Found: /api/images/uploads/Packages/italy_2_xtGUq5x.webp
+Not Found: /api/images/uploads/Packages/turkey_01.webp
+Not Found: /api/images/uploads/LatestTours/varanasi.jpg
+Not Found: /api/images/uploads/LatestTours/Wayanad.jpg
+Not Found: /api/images/uploads/LatestTours/cochin_kumarakom.jpg
+Not Found: /api/images/uploads/LatestTours/mysore.jpg
+Not Found: /api/images/uploads/LatestTours/GEORGIA_4.3.jpg
+Not Found: /api/images/uploads/LatestTours/maldives_w.jpg
+Not Found: /api/images/uploads/LatestTours/anfaman__nicobar_1.jpg
+Not Found: /api/images/uploads/LatestTours/agra_1.jpg
+Not Found: /api/images/uploads/LatestTours/armania_1350_1.jpg
+Not Found: /api/images/uploads/LatestTours/hyderabad.jpg
+Not Found: /api/images/uploads/LatestTours/haridwar_rishikesh.jpg
+Not Found: /api/images/uploads/LatestTours/jaipur_1.jpg
+Not Found: /api/images/uploads/LatestTours/karnataka_tour.jpg
+Not Found: /api/images/uploads/LatestTours/pattaya_bangkok.jpg
+Not Found: /api/images/uploads/LatestTours/Lakshadweep_1.jpg
+Not Found: /api/images/uploads/LatestTours/pondicherry_w.jpg
+Not Found: /api/images/uploads/LatestTours/south_india_tour_1.jpg
+Not Found: /api/images/uploads/LatestTours/shiridi.jpg
+Not Found: /api/images/uploads/LatestTours/Srilanka__1080_W.jpg
+Not Found: /api/images/uploads/Packages/singapore.webp
+Not Found: /api/images/uploads/Packages/indonesia.jpg
+Not Found: /api/images/uploads/Packages/maritius.jpg
+Not Found: /api/images/uploads/Packages/lakshadweep.webp
+Not Found: /api/images/uploads/Packages/Nepal-home.jpg
+Not Found: /api/images/uploads/Packages/perth.webp
+Not Found: /api/images/uploads/Packages/syndey.webp
+Not Found: /api/images/uploads/Packages/srilanka.jpg
+Not Found: /api/images/uploads/Packages/madurai_kXRvi8v.jpg
+Not Found: /api/images/uploads/Packages/kanyakumari3.jpg
+Not Found: /api/images/uploads/Packages/fijii.webp
+Not Found: /api/images/uploads/Packages/newsland.webp
+Not Found: /api/images/uploads/Packages/melbourne.webp
+Not Found: /api/images/uploads/Packages/norway.webp
+Not Found: /api/images/uploads/Packages/sweden_2.webp
+Not Found: /api/images/uploads/Packages/denmark.webp
+Not Found: /api/images/uploads/Packages/quensland.webp
+Not Found: /api/images/uploads/Packages/iceland_w3HIGkI.webp
+Not Found: /api/images/uploads/Packages/finland.webp
+Not Found: /api/images/uploads/Packages/norway_mpHUU8U.webp
+Not Found: /api/images/uploads/Packages/bahrain.jpg
+Not Found: /api/images/uploads/Packages/qatar.jpg
+Not Found: /api/images/uploads/Packages/abu-dhabi.jpg
+Not Found: /api/images/uploads/Packages/dubai.webp
+Not Found: /api/images/uploads/Packages/saudi.jpg
+Not Found: /api/images/uploads/Packages/827_madurai_1.jpg
+Not Found: /api/images/uploads/Packages/825_madurai_iBHMtNB.jpg
+Not Found: /api/images/uploads/Packages/madurai_kXRvi8v.jpg
+Not Found: /api/images/uploads/Packages/825_madurai_iBHMtNB.jpg
+Not Found: /api/images/uploads/Packages/kanyakumari3.jpg
+Not Found: /api/images/uploads/Packages/827_madurai_1.jpg
+Not Found: /api/images/uploads/Packages/goa_1.jpg
+Not Found: /api/images/uploads/Packages/rajasthan.jpg
+Not Found: /api/images/uploads/Packages/assam.jpg
+Not Found: /api/images/uploads/Packages/himachal_01.jpg
+Not Found: /api/images/uploads/Packages/arunachal.jpg
+Not Found: /api/images/uploads/Packages/dubai.webp
+Not Found: /api/images/uploads/Packages/bahrain.jpg
+Not Found: /api/images/uploads/Packages/qatar.jpg
+Not Found: /api/images/uploads/Packages/saudi.jpg
+Not Found: /api/images/uploads/Packages/abu-dhabi.jpg
+Not Found: /api/images/uploads/Packages/tamilnadu-01.jpg
+Not Found: /api/images/uploads/Packages/kerala.jpg
+Not Found: /api/images/uploads/Packages/pondi.jpg
+Not Found: /api/images/uploads/Packages/lakshadweep.jpg
+Not Found: /api/images/uploads/LatestTours/thailand_1.jpg
+Not Found: /api/images/uploads/LatestTours/varanasi.jpg
+Not Found: /api/images/uploads/LatestTours/vietnam.jpg
+Not Found: /api/images/uploads/LatestTours/Wayanad.jpg
+Not Found: /api/images/uploads/LatestTours/cochin_kumarakom.jpg
+Not Found: /api/images/uploads/LatestTours/mysore.jpg
+Not Found: /api/images/uploads/LatestTours/GEORGIA_4.3.jpg
+Not Found: /api/images/uploads/LatestTours/maldives_w.jpg
+Not Found: /api/images/uploads/LatestTours/anfaman__nicobar_1.jpg
+Not Found: /api/images/uploads/LatestTours/agra_1.jpg
+Not Found: /api/images/uploads/LatestTours/armania_1350_1.jpg
+Not Found: /api/images/uploads/LatestTours/hyderabad.jpg
+Not Found: /api/images/uploads/LatestTours/karnataka_tour.jpg
+Not Found: /api/images/uploads/LatestTours/haridwar_rishikesh.jpg
+Not Found: /api/images/uploads/LatestTours/Lakshadweep_1.jpg
+Not Found: /api/images/uploads/LatestTours/jaipur_1.jpg
+Not Found: /api/images/uploads/LatestTours/pondicherry_w.jpg
+Not Found: /api/images/uploads/LatestTours/pattaya_bangkok.jpg
+Not Found: /api/images/uploads/LatestTours/shiridi.jpg
+Not Found: /api/images/uploads/LatestTours/south_india_tour_1.jpg
+Not Found: /api/images/uploads/LatestTours/Srilanka__1080_W.jpg
+Not Found: /api/images/uploads/Packages/perth.webp
+Not Found: /api/images/uploads/Packages/syndey.webp
+Not Found: /api/images/uploads/Packages/fijii.webp
+Not Found: /api/images/uploads/Packages/newsland.webp
+Not Found: /api/images/uploads/Packages/quensland.webp
+Not Found: /api/images/uploads/Packages/melbourne.webp
+Not Found: /api/images/uploads/Packages/iceland_nM1FsuW.webp
+Not Found: /api/images/uploads/Packages/France.jpg
+Not Found: /api/images/uploads/Packages/italy_2_xtGUq5x.webp
+Not Found: /api/images/uploads/Packages/creek-6162592_640.jpg
+Not Found: /api/images/uploads/Packages/norway.webp
+Not Found: /api/images/uploads/Packages/sweden_2.webp
+Not Found: /api/images/uploads/Packages/turkey_01.webp
+Not Found: /api/images/uploads/Packages/denmark.webp
+Not Found: /api/images/uploads/Packages/iceland_w3HIGkI.webp
+Not Found: /api/images/uploads/Packages/norway_mpHUU8U.webp
+Not Found: /api/images/uploads/Packages/finland.webp
+Not Found: /api/images/uploads/Packages/indonesia.jpg
+Not Found: /api/images/uploads/Packages/singapore.webp
+Not Found: /api/images/uploads/Packages/maritius.jpg
+Not Found: /api/images/uploads/Packages/srilanka.jpg
+Not Found: /api/images/uploads/Packages/Nepal-home.jpg
+Not Found: /api/images/uploads/Packages/lakshadweep.webp
+Not Found: /api/api/
+Not Found: /api/
+Not Found: /api/api/
+Not Found: /api/
+[UID:2803][10574] Reached max children process limit: 6, extra: 2, current: 8, busy: 7, please increase LSAPI_CHILDREN.
+[UID:2803][10574] Child process with pid: 10582 was killed by signal: 15, core dumped: no
+[UID:2803][10574] Child process with pid: 10581 was killed by signal: 15, core dumped: no
+[UID:2803][10574] Child process with pid: 10583 was killed by signal: 15, core dumped: no
+[UID:2803][10574] Child process with pid: 10584 was killed by signal: 15, core dumped: no
+[UID:2803][10574] Child process with pid: 10585 was killed by signal: 15, core dumped: no
+[UID:2803][10574] Child process with pid: 10586 was killed by signal: 15, core dumped: no
+[UID:2803][4034] Child process with pid: 4701 was killed by signal: 15, core dumped: no
+[UID:2803][4034] Child process with pid: 4699 was killed by signal: 15, core dumped: no
+[UID:2803][14154] Child process with pid: 17493 was killed by signal: 15, core dumped: no
+[UID:2803][14154] Child process with pid: 17491 was killed by signal: 15, core dumped: no
+[UID:2803][14154] Child process with pid: 17492 was killed by signal: 15, core dumped: no
+Not Found: /api/api/
+Not Found: /api/api/
+[UID:2803][32018] Child process with pid: 8500 was killed by signal: 15, core dumped: no
+[UID:2803][32018] Child process with pid: 8498 was killed by signal: 15, core dumped: no
+[UID:2803][32018] Child process with pid: 8499 was killed by signal: 15, core dumped: no
+[UID:2803][3911] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:2803][3911] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:2803][3911] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:2803][3911] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:2803][19561] Child process with pid: 19575 was killed by signal: 15, core dumped: no
+Not Found: /api/
+Not Found: /api/api/
+Not Found: /api/packages/1/function%20()%20%7B%20[native%20code]%20%7D
+Not Found: /api/packages/6/function%20()%20%7B%20[native%20code]%20%7D
+Not Found: /api/packages/2/function%20()%20%7B%20[native%20code]%20%7D
+Not Found: /api/packages/5/function%20()%20%7B%20[native%20code]%20%7D
+Not Found: /api/packages/3/function%20()%20%7B%20[native%20code]%20%7D
+Not Found: /api/packages/7/function%20()%20%7B%20[native%20code]%20%7D
+Not Found: /api/packages/1/function%20()%20%7B%20[native%20code]%20%7D
+Not Found: /api/packages/4/function%20()%20%7B%20[native%20code]%20%7D
+Not Found: /api/packages/6/function%20()%20%7B%20[native%20code]%20%7D
+Not Found: /api/packages/2/function%20()%20%7B%20[native%20code]%20%7D
+Not Found: /api/packages/5/function%20()%20%7B%20[native%20code]%20%7D
+Not Found: /api/packages/7/function%20()%20%7B%20[native%20code]%20%7D
+Not Found: /api/packages/4/function%20()%20%7B%20[native%20code]%20%7D
+Not Found: /api/packages/3/function%20()%20%7B%20[native%20code]%20%7D
+Not Found: /api/packages/2/function%20()%20%7B%20[native%20code]%20%7D
+Not Found: /api/packages/3/function%20()%20%7B%20[native%20code]%20%7D
+Not Found: /api/packages/1/function%20()%20%7B%20[native%20code]%20%7D
+Not Found: /api/packages/7/function%20()%20%7B%20[native%20code]%20%7D
+Not Found: /api/packages/4/function%20()%20%7B%20[native%20code]%20%7D
+Not Found: /api/packages/5/function%20()%20%7B%20[native%20code]%20%7D
+Not Found: /api/packages/6/function%20()%20%7B%20[native%20code]%20%7D
+Not Found: /api/packages/2/function%20()%20%7B%20[native%20code]%20%7D
+Not Found: /api/packages/1/function%20()%20%7B%20[native%20code]%20%7D
+Not Found: /api/packages/3/function%20()%20%7B%20[native%20code]%20%7D
+Not Found: /api/packages/7/function%20()%20%7B%20[native%20code]%20%7D
+Not Found: /api/packages/4/function%20()%20%7B%20[native%20code]%20%7D
+Not Found: /api/packages/6/function%20()%20%7B%20[native%20code]%20%7D
+Not Found: /api/packages/5/function%20()%20%7B%20[native%20code]%20%7D
+Internal Server Error: /api/admin/api/packages/26/change/
+Traceback (most recent call last):
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/db/backends/mysql/base.py", line 75, in execute
+    return self.cursor.execute(query, args)
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib64/python3.9/site-packages/MySQLdb/cursors.py", line 179, in execute
+    res = self._query(mogrified_query)
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib64/python3.9/site-packages/MySQLdb/cursors.py", line 330, in _query
+    db.query(q)
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib64/python3.9/site-packages/MySQLdb/connections.py", line 255, in query
+    _mysql.connection.query(self, query)
+MySQLdb.IntegrityError: (1062, "Duplicate entry 'lakshadweep' for key 'slug'")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/contrib/admin/options.py", line 688, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/utils/decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/views/decorators/cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/contrib/admin/sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/contrib/admin/options.py", line 1889, in change_view
+    return self.changeform_view(request, object_id, form_url, extra_context)
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/utils/decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/utils/decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/contrib/admin/options.py", line 1747, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/contrib/admin/options.py", line 1798, in _changeform_view
+    self.save_model(request, new_object, form, not add)
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/contrib/admin/options.py", line 1227, in save_model
+    obj.save()
+  File "/home/welcometours/public_html/api/api/models.py", line 60, in save
+    super().save(*args, **kwargs)
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/db/models/base.py", line 814, in save
+    self.save_base(
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/db/models/base.py", line 877, in save_base
+    updated = self._save_table(
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/db/models/base.py", line 990, in _save_table
+    updated = self._do_update(
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/db/models/base.py", line 1054, in _do_update
+    return filtered._update(values) > 0
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/db/models/query.py", line 1231, in _update
+    return query.get_compiler(self.db).execute_sql(CURSOR)
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/db/models/sql/compiler.py", line 1984, in execute_sql
+    cursor = super().execute_sql(result_type)
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/db/models/sql/compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/db/backends/utils.py", line 102, in execute
+    return super().execute(sql, params)
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/db/backends/utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/db/backends/utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/db/backends/mysql/base.py", line 75, in execute
+    return self.cursor.execute(query, args)
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib64/python3.9/site-packages/MySQLdb/cursors.py", line 179, in execute
+    res = self._query(mogrified_query)
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib64/python3.9/site-packages/MySQLdb/cursors.py", line 330, in _query
+    db.query(q)
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib64/python3.9/site-packages/MySQLdb/connections.py", line 255, in query
+    _mysql.connection.query(self, query)
+django.db.utils.IntegrityError: (1062, "Duplicate entry 'lakshadweep' for key 'slug'")
+Internal Server Error: /api/admin/api/packages/26/change/
+Traceback (most recent call last):
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/db/backends/mysql/base.py", line 75, in execute
+    return self.cursor.execute(query, args)
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib64/python3.9/site-packages/MySQLdb/cursors.py", line 179, in execute
+    res = self._query(mogrified_query)
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib64/python3.9/site-packages/MySQLdb/cursors.py", line 330, in _query
+    db.query(q)
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib64/python3.9/site-packages/MySQLdb/connections.py", line 255, in query
+    _mysql.connection.query(self, query)
+MySQLdb.IntegrityError: (1062, "Duplicate entry 'lakshadweep' for key 'slug'")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/contrib/admin/options.py", line 688, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/utils/decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/views/decorators/cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/contrib/admin/sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/contrib/admin/options.py", line 1889, in change_view
+    return self.changeform_view(request, object_id, form_url, extra_context)
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/utils/decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/utils/decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/contrib/admin/options.py", line 1747, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/contrib/admin/options.py", line 1798, in _changeform_view
+    self.save_model(request, new_object, form, not add)
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/contrib/admin/options.py", line 1227, in save_model
+    obj.save()
+  File "/home/welcometours/public_html/api/api/models.py", line 60, in save
+    super().save(*args, **kwargs)
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/db/models/base.py", line 814, in save
+    self.save_base(
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/db/models/base.py", line 877, in save_base
+    updated = self._save_table(
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/db/models/base.py", line 990, in _save_table
+    updated = self._do_update(
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/db/models/base.py", line 1054, in _do_update
+    return filtered._update(values) > 0
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/db/models/query.py", line 1231, in _update
+    return query.get_compiler(self.db).execute_sql(CURSOR)
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/db/models/sql/compiler.py", line 1984, in execute_sql
+    cursor = super().execute_sql(result_type)
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/db/models/sql/compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/db/backends/utils.py", line 102, in execute
+    return super().execute(sql, params)
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/db/backends/utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/db/backends/utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/db/backends/mysql/base.py", line 75, in execute
+    return self.cursor.execute(query, args)
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib64/python3.9/site-packages/MySQLdb/cursors.py", line 179, in execute
+    res = self._query(mogrified_query)
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib64/python3.9/site-packages/MySQLdb/cursors.py", line 330, in _query
+    db.query(q)
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib64/python3.9/site-packages/MySQLdb/connections.py", line 255, in query
+    _mysql.connection.query(self, query)
+django.db.utils.IntegrityError: (1062, "Duplicate entry 'lakshadweep' for key 'slug'")
+Internal Server Error: /api/admin/api/packages/26/change/
+Traceback (most recent call last):
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/db/backends/mysql/base.py", line 75, in execute
+    return self.cursor.execute(query, args)
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib64/python3.9/site-packages/MySQLdb/cursors.py", line 179, in execute
+    res = self._query(mogrified_query)
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib64/python3.9/site-packages/MySQLdb/cursors.py", line 330, in _query
+    db.query(q)
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib64/python3.9/site-packages/MySQLdb/connections.py", line 255, in query
+    _mysql.connection.query(self, query)
+MySQLdb.IntegrityError: (1062, "Duplicate entry 'lakshadweep' for key 'slug'")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/contrib/admin/options.py", line 688, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/utils/decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/views/decorators/cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/contrib/admin/sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/contrib/admin/options.py", line 1889, in change_view
+    return self.changeform_view(request, object_id, form_url, extra_context)
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/utils/decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/utils/decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/contrib/admin/options.py", line 1747, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/contrib/admin/options.py", line 1798, in _changeform_view
+    self.save_model(request, new_object, form, not add)
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/contrib/admin/options.py", line 1227, in save_model
+    obj.save()
+  File "/home/welcometours/public_html/api/api/models.py", line 60, in save
+    super().save(*args, **kwargs)
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/db/models/base.py", line 814, in save
+    self.save_base(
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/db/models/base.py", line 877, in save_base
+    updated = self._save_table(
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/db/models/base.py", line 990, in _save_table
+    updated = self._do_update(
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/db/models/base.py", line 1054, in _do_update
+    return filtered._update(values) > 0
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/db/models/query.py", line 1231, in _update
+    return query.get_compiler(self.db).execute_sql(CURSOR)
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/db/models/sql/compiler.py", line 1984, in execute_sql
+    cursor = super().execute_sql(result_type)
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/db/models/sql/compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/db/backends/utils.py", line 102, in execute
+    return super().execute(sql, params)
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/db/backends/utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/db/backends/utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/db/backends/mysql/base.py", line 75, in execute
+    return self.cursor.execute(query, args)
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib64/python3.9/site-packages/MySQLdb/cursors.py", line 179, in execute
+    res = self._query(mogrified_query)
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib64/python3.9/site-packages/MySQLdb/cursors.py", line 330, in _query
+    db.query(q)
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib64/python3.9/site-packages/MySQLdb/connections.py", line 255, in query
+    _mysql.connection.query(self, query)
+django.db.utils.IntegrityError: (1062, "Duplicate entry 'lakshadweep' for key 'slug'")
+Not Found: /api/api/latest-tours/undefined
+Not Found: /api/api/latest-tours/undefined
+Not Found: /api/api/latest-tours/undefined
+Internal Server Error: /api/admin/api/packages/29/change/
+Traceback (most recent call last):
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/db/backends/mysql/base.py", line 75, in execute
+    return self.cursor.execute(query, args)
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib64/python3.9/site-packages/MySQLdb/cursors.py", line 179, in execute
+    res = self._query(mogrified_query)
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib64/python3.9/site-packages/MySQLdb/cursors.py", line 330, in _query
+    db.query(q)
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib64/python3.9/site-packages/MySQLdb/connections.py", line 255, in query
+    _mysql.connection.query(self, query)
+MySQLdb.IntegrityError: (1062, "Duplicate entry 'norway' for key 'slug'")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/contrib/admin/options.py", line 688, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/utils/decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/views/decorators/cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/contrib/admin/sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/contrib/admin/options.py", line 1889, in change_view
+    return self.changeform_view(request, object_id, form_url, extra_context)
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/utils/decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/utils/decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/contrib/admin/options.py", line 1747, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/contrib/admin/options.py", line 1798, in _changeform_view
+    self.save_model(request, new_object, form, not add)
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/contrib/admin/options.py", line 1227, in save_model
+    obj.save()
+  File "/home/welcometours/public_html/api/api/models.py", line 60, in save
+    super().save(*args, **kwargs)
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/db/models/base.py", line 814, in save
+    self.save_base(
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/db/models/base.py", line 877, in save_base
+    updated = self._save_table(
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/db/models/base.py", line 990, in _save_table
+    updated = self._do_update(
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/db/models/base.py", line 1054, in _do_update
+    return filtered._update(values) > 0
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/db/models/query.py", line 1231, in _update
+    return query.get_compiler(self.db).execute_sql(CURSOR)
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/db/models/sql/compiler.py", line 1984, in execute_sql
+    cursor = super().execute_sql(result_type)
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/db/models/sql/compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/db/backends/utils.py", line 102, in execute
+    return super().execute(sql, params)
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/db/backends/utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/db/backends/utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/db/backends/mysql/base.py", line 75, in execute
+    return self.cursor.execute(query, args)
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib64/python3.9/site-packages/MySQLdb/cursors.py", line 179, in execute
+    res = self._query(mogrified_query)
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib64/python3.9/site-packages/MySQLdb/cursors.py", line 330, in _query
+    db.query(q)
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib64/python3.9/site-packages/MySQLdb/connections.py", line 255, in query
+    _mysql.connection.query(self, query)
+django.db.utils.IntegrityError: (1062, "Duplicate entry 'norway' for key 'slug'")
+Internal Server Error: /api/admin/api/packages/11/change/
+Traceback (most recent call last):
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/db/backends/mysql/base.py", line 75, in execute
+    return self.cursor.execute(query, args)
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib64/python3.9/site-packages/MySQLdb/cursors.py", line 179, in execute
+    res = self._query(mogrified_query)
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib64/python3.9/site-packages/MySQLdb/cursors.py", line 330, in _query
+    db.query(q)
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib64/python3.9/site-packages/MySQLdb/connections.py", line 255, in query
+    _mysql.connection.query(self, query)
+MySQLdb.IntegrityError: (1062, "Duplicate entry 'iceland' for key 'slug'")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/contrib/admin/options.py", line 688, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/utils/decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/views/decorators/cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/contrib/admin/sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/contrib/admin/options.py", line 1889, in change_view
+    return self.changeform_view(request, object_id, form_url, extra_context)
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/utils/decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/utils/decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/contrib/admin/options.py", line 1747, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/contrib/admin/options.py", line 1798, in _changeform_view
+    self.save_model(request, new_object, form, not add)
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/contrib/admin/options.py", line 1227, in save_model
+    obj.save()
+  File "/home/welcometours/public_html/api/api/models.py", line 60, in save
+    super().save(*args, **kwargs)
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/db/models/base.py", line 814, in save
+    self.save_base(
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/db/models/base.py", line 877, in save_base
+    updated = self._save_table(
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/db/models/base.py", line 990, in _save_table
+    updated = self._do_update(
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/db/models/base.py", line 1054, in _do_update
+    return filtered._update(values) > 0
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/db/models/query.py", line 1231, in _update
+    return query.get_compiler(self.db).execute_sql(CURSOR)
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/db/models/sql/compiler.py", line 1984, in execute_sql
+    cursor = super().execute_sql(result_type)
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/db/models/sql/compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/db/backends/utils.py", line 102, in execute
+    return super().execute(sql, params)
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/db/backends/utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/db/backends/utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/db/backends/mysql/base.py", line 75, in execute
+    return self.cursor.execute(query, args)
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib64/python3.9/site-packages/MySQLdb/cursors.py", line 179, in execute
+    res = self._query(mogrified_query)
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib64/python3.9/site-packages/MySQLdb/cursors.py", line 330, in _query
+    db.query(q)
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib64/python3.9/site-packages/MySQLdb/connections.py", line 255, in query
+    _mysql.connection.query(self, query)
+django.db.utils.IntegrityError: (1062, "Duplicate entry 'iceland' for key 'slug'")
+Internal Server Error: /api/admin/api/packages/26/change/
+Traceback (most recent call last):
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/db/backends/mysql/base.py", line 75, in execute
+    return self.cursor.execute(query, args)
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib64/python3.9/site-packages/MySQLdb/cursors.py", line 179, in execute
+    res = self._query(mogrified_query)
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib64/python3.9/site-packages/MySQLdb/cursors.py", line 330, in _query
+    db.query(q)
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib64/python3.9/site-packages/MySQLdb/connections.py", line 255, in query
+    _mysql.connection.query(self, query)
+MySQLdb.IntegrityError: (1062, "Duplicate entry 'lakshadweep' for key 'slug'")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/contrib/admin/options.py", line 688, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/utils/decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/views/decorators/cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/contrib/admin/sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/contrib/admin/options.py", line 1889, in change_view
+    return self.changeform_view(request, object_id, form_url, extra_context)
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/utils/decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/utils/decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/contrib/admin/options.py", line 1747, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/contrib/admin/options.py", line 1798, in _changeform_view
+    self.save_model(request, new_object, form, not add)
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/contrib/admin/options.py", line 1227, in save_model
+    obj.save()
+  File "/home/welcometours/public_html/api/api/models.py", line 60, in save
+    super().save(*args, **kwargs)
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/db/models/base.py", line 814, in save
+    self.save_base(
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/db/models/base.py", line 877, in save_base
+    updated = self._save_table(
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/db/models/base.py", line 990, in _save_table
+    updated = self._do_update(
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/db/models/base.py", line 1054, in _do_update
+    return filtered._update(values) > 0
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/db/models/query.py", line 1231, in _update
+    return query.get_compiler(self.db).execute_sql(CURSOR)
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/db/models/sql/compiler.py", line 1984, in execute_sql
+    cursor = super().execute_sql(result_type)
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/db/models/sql/compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/db/backends/utils.py", line 102, in execute
+    return super().execute(sql, params)
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/db/backends/utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/db/backends/utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/db/backends/mysql/base.py", line 75, in execute
+    return self.cursor.execute(query, args)
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib64/python3.9/site-packages/MySQLdb/cursors.py", line 179, in execute
+    res = self._query(mogrified_query)
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib64/python3.9/site-packages/MySQLdb/cursors.py", line 330, in _query
+    db.query(q)
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib64/python3.9/site-packages/MySQLdb/connections.py", line 255, in query
+    _mysql.connection.query(self, query)
+django.db.utils.IntegrityError: (1062, "Duplicate entry 'lakshadweep' for key 'slug'")
+Not Found: /api/api/packages/1
+Not Found: /api/api/packages/7
+Not Found: /api/api/packages/5
+Not Found: /api/api/packages/3
+Not Found: /api/api/packages/4
+Not Found: /api/api/packages/4
+Not Found: /api/api/packages/3
+Not Found: /api/api/packages/2
+Not Found: /api/api/packages/4
+Not Found: /api/api/packages/6
+Not Found: /api/api/packages/7
+Not Found: /api/api/packages/1
+Not Found: /api/api/packages/5
+Not Found: /api/api/packages/5
+Not Found: /api/api/packages/2
+Not Found: /api/api/packages/6
+Not Found: /api/api/packages/1
+Not Found: /api/api/packages/3
+Not Found: /api/api/packages/4
+Not Found: /api/api/packages/7
+Not Found: /api/api/packages/13
+Not Found: /api/api/sub-packages/13
+Not Found: /api/api/packages/13
+Not Found: /api/api/sub-packages/13
+Not Found: /api/api/sub-packages/16
+Not Found: /api/api/packages/16
+Not Found: /api/
+Not Found: /api/
+Not Found: /api/api/packages/2
+Not Found: /api/api/packages/7
+Not Found: /api/api/packages/7
+Not Found: /api/api/packages/2
+Not Found: /api/api/packages/7
+Not Found: /api/api/packages/2
+Not Found: /api/api/packages/2
+[UID:2803][11466] Reached max children process limit: 6, extra: 2, current: 8, busy: 7, please increase LSAPI_CHILDREN.
+[UID:2803][11466] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:2803][11466] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:2803][11466] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:2803][11466] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:2803][13878] Child process with pid: 13901 was killed by signal: 15, core dumped: no
+[UID:2803][13878] Child process with pid: 13900 was killed by signal: 15, core dumped: no
+[UID:2803][13878] Child process with pid: 13899 was killed by signal: 15, core dumped: no
+[UID:2803][13878] Child process with pid: 13895 was killed by signal: 15, core dumped: no
+[UID:2803][13878] Child process with pid: 13897 was killed by signal: 15, core dumped: no
+[UID:2803][13878] Child process with pid: 13898 was killed by signal: 15, core dumped: no
+Not Found: /api/index.php/v1/config/application
+[UID:2803][427] Child process with pid: 448 was killed by signal: 15, core dumped: no
+[UID:2803][427] Child process with pid: 445 was killed by signal: 15, core dumped: no
+[UID:2803][15545] Reached max children process limit: 6, extra: 2, current: 8, busy: 7, please increase LSAPI_CHILDREN.
+[UID:2803][15545] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:2803][15545] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:2803][15545] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:2803][559] Child process with pid: 4174 was killed by signal: 15, core dumped: no
+[UID:2803][559] Child process with pid: 4173 was killed by signal: 15, core dumped: no
+[UID:2803][559] Child process with pid: 4175 was killed by signal: 15, core dumped: no
+Not Found: /api/api/packages/7
+Not Found: /api/api/packages/4
+Not Found: /api/api/packages/5
+Not Found: /api/api/packages/1
+Not Found: /api/api/packages/6
+Not Found: /api/api/packages/3
+Not Found: /api/api/packages/2
+[UID:2803][880] Child process with pid: 900 was killed by signal: 15, core dumped: no
+[UID:2803][880] Child process with pid: 902 was killed by signal: 15, core dumped: no
+[UID:2803][880] Child process with pid: 904 was killed by signal: 15, core dumped: no
+[UID:2803][880] Child process with pid: 899 was killed by signal: 15, core dumped: no
+[UID:2803][880] Child process with pid: 898 was killed by signal: 15, core dumped: no
+[UID:2803][880] Child process with pid: 901 was killed by signal: 15, core dumped: no
+[UID:2803][880] Child process with pid: 903 was killed by signal: 15, core dumped: no
+[UID:2803][880] Child process with pid: 897 was killed by signal: 15, core dumped: no
+[UID:2803][19487] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:2803][19487] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:2803][19487] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:2803][19487] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:2803][19487] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:2803][19487] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:2803][22472] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:2803][22472] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:2803][22472] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:2803][22472] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:2803][22472] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+Not Found: /api/api/packages/7
+Not Found: /api/api/packages/4
+Not Found: /api/api/packages/3
+Not Found: /api/api/packages/2
+Not Found: /api/api/packages/5
+Not Found: /api/api/packages/6
+Not Found: /api/api/packages/1
+Not Found: /api/api/packages/7
+Not Found: /api/api/packages/2
+Not Found: /api/api/packages/3
+Not Found: /api/api/packages/4
+Not Found: /api/api/packages/6
+Not Found: /api/api/packages/1
+Not Found: /api/api/packages/5
+Not Found: /api/api/packages/3
+Not Found: /api/api/packages/5
+Not Found: /api/api/packages/2
+Not Found: /api/api/packages/4
+Not Found: /api/api/packages/7
+Not Found: /api/api/packages/1
+Not Found: /api/api/packages/6
+Not Found: /api/api/packages/5
+Not Found: /api/api/packages/2
+Not Found: /api/api/packages/3
+Not Found: /api/api/packages/4
+Not Found: /api/api/packages/7
+Not Found: /api/api/packages/1
+Not Found: /api/api/packages/6
+[UID:2803][1648] [UID:2803][1648] Child process with pid: 3180 was killed by signal: 15, core dumped: no
+[UID:2803][1648] Child process with pid: 3181 was killed by signal: 15, core dumped: no
+Reached max children process limit: 6, extra: 2, current: 8, busy: 7, please increase LSAPI_CHILDREN.
+[UID:2803][1648] Child process with pid: 3179 was killed by signal: 15, core dumped: no
+[UID:2803][24296] Reached max children process limit: 6, extra: 2, current: 8, busy: 7, please increase LSAPI_CHILDREN.
+[UID:2803][24296] Child process with pid: 24307 was killed by signal: 15, core dumped: no
+[UID:2803][24296] Child process with pid: 24305 was killed by signal: 15, core dumped: no
+[UID:2803][24296] Child process with pid: 24304 was killed by signal: 15, core dumped: no
+[UID:2803][24296] Child process with pid: 24306 was killed by signal: 15, core dumped: no
+[UID:2803][24296] Child process with pid: 24308 was killed by signal: 15, core dumped: no
+[UID:2803][24296] Child process with pid: 24309 was killed by signal: 15, core dumped: no
+[UID:2803][17055] Reached max children process limit: 6, extra: 2, current: 8, busy: 7, please increase LSAPI_CHILDREN.
+[UID:2803][17055] Child process with pid: 17073 was killed by signal: 15, core dumped: no
+[UID:2803][17055] Child process with pid: 17071 was killed by signal: 15, core dumped: no
+[UID:2803][17055] Child process with pid: 17069 was killed by signal: 15, core dumped: no
+[UID:2803][17055] Child process with pid: 17070 was killed by signal: 15, core dumped: no
+[UID:2803][17055] Child process with pid: 17072 was killed by signal: 15, core dumped: no
+[UID:2803][17055] Child process with pid: 17074 was killed by signal: 15, core dumped: no
+[UID:2803][20125] Child process with pid: 25176 was killed by signal: 15, core dumped: no
+/home/welcometours/virtualenv/public_html/api/3.9/lib64/python3.9/site-packages/PIL/Image.py:3218: DecompressionBombWarning: Image size (92012986 pixels) exceeds limit of 89478485 pixels, could be decompression bomb DOS attack.
+  warnings.warn(
+[UID:2803][16285] Child process with pid: 24589 was killed by signal: 15, core dumped: no
+[UID:2803][16285] Child process with pid: 24590 was killed by signal: 15, core dumped: no
+[UID:2803][16285] Child process with pid: 24588 was killed by signal: 15, core dumped: no
+[UID:2803][25935] Child process with pid: 30753 was killed by signal: 15, core dumped: no
+[UID:2803][25935] Child process with pid: 30754 was killed by signal: 15, core dumped: no
+[UID:2803][4683] Child process with pid: 5925 was killed by signal: 15, core dumped: no
+[UID:2803][26966] Child process with pid: 29128 was killed by signal: 15, core dumped: no
+[UID:2803][26966] Child process with pid: 29126 was killed by signal: 15, core dumped: no
+[UID:2803][26966] Child process with pid: 29127 was killed by signal: 15, core dumped: no
+[UID:2803][8952] Reached max children process limit: 6, extra: 2, current: 8, busy: 7, please increase LSAPI_CHILDREN.
+[UID:2803][8952] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:2803][8952] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:2803][8952] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:2803][8952] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:2803][8952] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:2803][27802] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:2803][27802] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:2803][27802] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:2803][27802] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:2803][22354] Child process with pid: 22367 was killed by signal: 15, core dumped: no
+[UID:2803][22354] Child process with pid: 22365 was killed by signal: 15, core dumped: no
+[UID:2803][22354] Child process with pid: 22366 was killed by signal: 15, core dumped: no
+[UID:2803][22354] Child process with pid: 22368 was killed by signal: 15, core dumped: no
+[UID:2803][22354] Child process with pid: 22369 was killed by signal: 15, core dumped: no
+[UID:2803][22354] Child process with pid: 22370 was killed by signal: 15, core dumped: no
+[UID:2803][17762] Reached max children process limit: 6, extra: 2, current: 8, busy: 7, please increase LSAPI_CHILDREN.
+[UID:2803][17762] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:2803][17762] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:2803][17762] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:2803][18739] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:2803][18739] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:2803][18739] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:2803][18739] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:2803][7353] Child process with pid: 9095 was killed by signal: 15, core dumped: no
+[UID:2803][7353] Child process with pid: 9094 was killed by signal: 15, core dumped: no
+[UID:2803][7353] Child process with pid: 9096 was killed by signal: 15, core dumped: no
+[UID:2803][7353] Child process with pid: 9093 was killed by signal: 15, core dumped: no
+[UID:2803][19239] Reached max children process limit: 6, extra: 2, current: 8, busy: 6, please increase LSAPI_CHILDREN.
+[UID:2803][19239] Child process with pid: 25560 was killed by signal: 15, core dumped: no
+[UID:2803][19239] Child process with pid: 25555 was killed by signal: 15, core dumped: no
+[UID:2803][19239] Child process with pid: 25557 was killed by signal: 15, core dumped: no
+[UID:2803][19239] Child process with pid: 25559 was killed by signal: 15, core dumped: no
+[UID:2803][19239] Child process with pid: 25556 was killed by signal: 15, core dumped: no
+[UID:2803][19239] Child process with pid: 25558 was killed by signal: 15, core dumped: no
+Method Not Allowed: /api/api/request/
+Not Found: /api/api/
+[UID:2803][9157] Reached max children process limit: 6, extra: 2, current: 8, busy: 6, please increase LSAPI_CHILDREN.
+[UID:2803][9157] Child process with pid: 9164 was killed by signal: 15, core dumped: no
+[UID:2803][9157] Child process with pid: 9167 was killed by signal: 15, core dumped: no
+[UID:2803][9157] Child process with pid: 9163 was killed by signal: 15, core dumped: no
+[UID:2803][9157] Child process with pid: 9165 was killed by signal: 15, core dumped: no
+[UID:2803][9157] Child process with pid: 9166 was killed by signal: 15, core dumped: no
+[UID:2803][9157] Child process with pid: 9168 was killed by signal: 15, core dumped: no
+[UID:2803][9157] Child process with pid: 9433 was killed by signal: 15, core dumped: no
+[UID:2803][9157] Child process with pid: 9432 was killed by signal: 15, core dumped: no
+[UID:2803][9157] Child process with pid: 9430 was killed by signal: 15, core dumped: no
+[UID:2803][15247] Reached max children process limit: 6, extra: 2, current: 8, busy: 7, please increase LSAPI_CHILDREN.
+[UID:2803][15247] Child process with pid: 22595 was killed by signal: 15, core dumped: no
+[UID:2803][15247] Child process with pid: 22591 was killed by signal: 15, core dumped: no
+[UID:2803][15247] Child process with pid: 22593 was killed by signal: 15, core dumped: no
+[UID:2803][15247] Child process with pid: 22590 was killed by signal: 15, core dumped: no
+[UID:2803][15247] Child process with pid: 22592 was killed by signal: 15, core dumped: no
+[UID:2803][15247] Child process with pid: 22594 was killed by signal: 15, core dumped: no
+[UID:2803][24327] Reached max children process limit: 6, extra: 2, current: 8, busy: 6, please increase LSAPI_CHILDREN.
+[UID:2803][24327] Child process with pid: 24354 was killed by signal: 15, core dumped: no
+[UID:2803][24327] Child process with pid: 24350 was killed by signal: 15, core dumped: no
+[UID:2803][24327] Child process with pid: 24351 was killed by signal: 15, core dumped: no
+[UID:2803][24327] Child process with pid: 24352 was killed by signal: 15, core dumped: no
+[UID:2803][24327] Child process with pid: 24353 was killed by signal: 15, core dumped: no
+[UID:2803][24327] Child process with pid: 24355 was killed by signal: 15, core dumped: no
+[UID:2803][9482] Reached max children process limit: 6, extra: 2, current: 8, busy: 6, please increase LSAPI_CHILDREN.
+[UID:2803][9482] Child process with pid: 17255 was killed by signal: 15, core dumped: no
+[UID:2803][9482] Child process with pid: 17251 was killed by signal: 15, core dumped: no
+[UID:2803][9482] Child process with pid: 17254 was killed by signal: 15, core dumped: no
+[UID:2803][9482] Child process with pid: 17252 was killed by signal: 15, core dumped: no
+[UID:2803][9482] Child process with pid: 17253 was killed by signal: 15, core dumped: no
+[UID:2803][9482] Child process with pid: 17256 was killed by signal: 15, core dumped: no
+[UID:2803][9482] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:2803][9482] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:2803][9482] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:2803][20342] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:2803][20342] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:2803][20342] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:2803][20342] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:2803][1184] Reached max children process limit: 6, extra: 2, current: 8, busy: 0, please increase LSAPI_CHILDREN.
+[UID:2803][1184] Reached max children process limit: 6, extra: 2, current: 8, busy: 0, please increase LSAPI_CHILDREN.
+[UID:2803][1184] Reached max children process limit: 6, extra: 2, current: 8, busy: 0, please increase LSAPI_CHILDREN.
+[UID:2803][1184] Reached max children process limit: 6, extra: 2, current: 8, busy: 0, please increase LSAPI_CHILDREN.
+[UID:2803][1184] Reached max children process limit: 6, extra: 2, current: 8, busy: 0, please increase LSAPI_CHILDREN.
+[UID:2803][1184] Reached max children process limit: 6, extra: 2, current: 8, busy: 0, please increase LSAPI_CHILDREN.
+[UID:2803][1184] Reached max children process limit: 6, extra: 2, current: 8, busy: 0, please increase LSAPI_CHILDREN.
+[UID:2803][1184] Reached max children process limit: 6, extra: 2, current: 8, busy: 0, please increase LSAPI_CHILDREN.
+[UID:2803][1184] Reached max children process limit: 6, extra: 2, current: 8, busy: 0, please increase LSAPI_CHILDREN.
+[UID:2803][1184] Reached max children process limit: 6, extra: 2, current: 8, busy: 0, please increase LSAPI_CHILDREN.
+[UID:2803][1184] Reached max children process limit: 6, extra: 2, current: 8, busy: 1, please increase LSAPI_CHILDREN.
+[UID:2803][1184] Reached max children process limit: 6, extra: 2, current: 8, busy: 2, please increase LSAPI_CHILDREN.
+[UID:2803][1184] Reached max children process limit: 6, extra: 2, current: 8, busy: 2, please increase LSAPI_CHILDREN.
+[UID:2803][1184] Reached max children process limit: 6, extra: 2, current: 8, busy: 3, please increase LSAPI_CHILDREN.
+[UID:2803][1184] Reached max children process limit: 6, extra: 2, current: 8, busy: 4, please increase LSAPI_CHILDREN.
+[UID:2803][1184] Reached max children process limit: 6, extra: 2, current: 8, busy: 5, please increase LSAPI_CHILDREN.
+[UID:2803][11107] Child process with pid: 11448 was killed by signal: 15, core dumped: no
+[UID:2803][11107] Child process with pid: 11451 was killed by signal: 15, core dumped: no
+[UID:2803][11107] Child process with pid: 11450 was killed by signal: 15, core dumped: no
+[UID:2803][11107] Child process with pid: 11449 was killed by signal: 15, core dumped: no
+[UID:2803][11107] Child process with pid: 11133 was killed by signal: 15, core dumped: no
+[UID:2803][2013] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:2803][2013] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:2803][2013] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:2803][2013] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:2803][3337] Child process with pid: 10450 was killed by signal: 15, core dumped: no
+[UID:2803][3337] Child process with pid: 10446 was killed by signal: 15, core dumped: no
+[UID:2803][3337] Child process with pid: 10447 was killed by signal: 15, core dumped: no
+[UID:2803][3337] Child process with pid: 10448 was killed by signal: 15, core dumped: no
+[UID:2803][3337] Child process with pid: 10445 was killed by signal: 15, core dumped: no
+[UID:2803][3337] Child process with pid: 10449 was killed by signal: 15, core dumped: no
+Internal Server Error: /api/admin/api/packages/add/
+Traceback (most recent call last):
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/db/backends/mysql/base.py", line 75, in execute
+    return self.cursor.execute(query, args)
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib64/python3.9/site-packages/MySQLdb/cursors.py", line 179, in execute
+    res = self._query(mogrified_query)
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib64/python3.9/site-packages/MySQLdb/cursors.py", line 331, in _query
+    self._do_get_result(db)
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib64/python3.9/site-packages/MySQLdb/cursors.py", line 136, in _do_get_result
+    self._result = result = self._get_result()
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib64/python3.9/site-packages/MySQLdb/cursors.py", line 363, in _get_result
+    return self._get_db().store_result()
+MySQLdb.IntegrityError: (1062, "Duplicate entry 'goa' for key 'slug'")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/contrib/admin/options.py", line 688, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/utils/decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/views/decorators/cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/contrib/admin/sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/contrib/admin/options.py", line 1886, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/utils/decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/utils/decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/contrib/admin/options.py", line 1747, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/contrib/admin/options.py", line 1798, in _changeform_view
+    self.save_model(request, new_object, form, not add)
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/contrib/admin/options.py", line 1227, in save_model
+    obj.save()
+  File "/home/welcometours/public_html/api/api/models.py", line 60, in save
+    super().save(*args, **kwargs)
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/db/models/base.py", line 814, in save
+    self.save_base(
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/db/models/base.py", line 877, in save_base
+    updated = self._save_table(
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/db/models/base.py", line 1020, in _save_table
+    results = self._do_insert(
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/db/models/base.py", line 1061, in _do_insert
+    return manager._insert(
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/db/models/query.py", line 1805, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/db/models/sql/compiler.py", line 1822, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/db/backends/utils.py", line 102, in execute
+    return super().execute(sql, params)
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/db/backends/utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/db/backends/utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib/python3.9/site-packages/django/db/backends/mysql/base.py", line 75, in execute
+    return self.cursor.execute(query, args)
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib64/python3.9/site-packages/MySQLdb/cursors.py", line 179, in execute
+    res = self._query(mogrified_query)
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib64/python3.9/site-packages/MySQLdb/cursors.py", line 331, in _query
+    self._do_get_result(db)
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib64/python3.9/site-packages/MySQLdb/cursors.py", line 136, in _do_get_result
+    self._result = result = self._get_result()
+  File "/home/welcometours/virtualenv/public_html/api/3.9/lib64/python3.9/site-packages/MySQLdb/cursors.py", line 363, in _get_result
+    return self._get_db().store_result()
+django.db.utils.IntegrityError: (1062, "Duplicate entry 'goa' for key 'slug'")
+[UID:2803][19753] Child process with pid: 1764 was killed by signal: 15, core dumped: no
+[UID:2803][19753] Child process with pid: 1765 was killed by signal: 15, core dumped: no
+[UID:2803][19753] Child process with pid: 1763 was killed by signal: 15, core dumped: no
+[UID:2803][22857] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:2803][22857] Child process with pid: 22864 was killed by signal: 15, core dumped: no
+[UID:2803][22857] Child process with pid: 22868 was killed by signal: 15, core dumped: no
+[UID:2803][22857] Child process with pid: 22867 was killed by signal: 15, core dumped: no
+[UID:2803][22857] Child process with pid: 22865 was killed by signal: 15, core dumped: no
+[UID:2803][22857] Child process with pid: 22866 was killed by signal: 15, core dumped: no
+[UID:2803][22857] Child process with pid: 22869 was killed by signal: 15, core dumped: no
+[UID:2803][21094] Child process with pid: 29066 was killed by signal: 15, core dumped: no
+[UID:2803][21094] Child process with pid: 29068 was killed by signal: 15, core dumped: no
+[UID:2803][21094] Child process with pid: 29067 was killed by signal: 15, core dumped: no
+[UID:2803][22067] Child process with pid: 24263 was killed by signal: 15, core dumped: no
+[UID:2803][22067] Child process with pid: 24264 was killed by signal: 15, core dumped: no
+[UID:2803][22067] Child process with pid: 24262 was killed by signal: 15, core dumped: no
+[UID:2803][15582] Child process with pid: 28104 was killed by signal: 15, core dumped: no
+[UID:2803][15582] Child process with pid: 28105 was killed by signal: 15, core dumped: no
+[UID:2803][15394] Child process with pid: 15413 was killed by signal: 15, core dumped: no
+[UID:2803][15394] Child process with pid: 15409 was killed by signal: 15, core dumped: no
+[UID:2803][15394] Child process with pid: 15412 was killed by signal: 15, core dumped: no
+[UID:2803][15394] Child process with pid: 15408 was killed by signal: 15, core dumped: no
+[UID:2803][15394] Child process with pid: 15411 was killed by signal: 15, core dumped: no
+[UID:2803][15394] Child process with pid: 15410 was killed by signal: 15, core dumped: no
+[UID:2803][16121] Child process with pid: 11487 was killed by signal: 15, core dumped: no
+[UID:2803][16121] Child process with pid: 11484 was killed by signal: 15, core dumped: no
+[UID:2803][16121] Child process with pid: 11483 was killed by signal: 15, core dumped: no
+[UID:2803][16121] Child process with pid: 11486 was killed by signal: 15, core dumped: no
+[UID:2803][16121] Child process with pid: 11488 was killed by signal: 15, core dumped: no
+[UID:2803][22089] Child process with pid: 22916 was killed by signal: 15, core dumped: no
+[UID:2803][22089] Child process with pid: 22914 was killed by signal: 15, core dumped: no
+[UID:2803][22089] Child process with pid: 22915 was killed by signal: 15, core dumped: no
+[UID:2803][28942] Child process with pid: 30108 was killed by signal: 15, core dumped: no
+[UID:2803][9348] Child process with pid: 9352 was killed by signal: 15, core dumped: no
+[UID:2803][9348] Child process with pid: 9353 was killed by signal: 15, core dumped: no
+[UID:2803][9348] Child process with pid: 9354 was killed by signal: 15, core dumped: no
+[UID:2803][9348] Child process with pid: 9356 was killed by signal: 15, core dumped: no
+[UID:2803][9348] Child process with pid: 9355 was killed by signal: 15, core dumped: no
+[UID:2803][9348] Child process with pid: 9357 was killed by signal: 15, core dumped: no
+[UID:2803][14275] Child process with pid: 14465 was killed by signal: 15, core dumped: no
+[UID:2803][14275] Child process with pid: 14282 was killed by signal: 15, core dumped: no
+[UID:2803][14275] Child process with pid: 14281 was killed by signal: 15, core dumped: no
+[UID:2803][22597] Reached max children process limit: 6, extra: 2, current: 8, busy: 7, please increase LSAPI_CHILDREN.
+[UID:2803][22597] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:2803][22597] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:2803][22597] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:2803][22597] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+Not Found: /api/api/sub-package/detail/1
+Not Found: /api/api/sub-package/detail/50
+Not Found: /api/api/sub-package/detail/50
+[UID:2803][2799] Child process with pid: 10092 was killed by signal: 15, core dumped: no
+[UID:2803][2799] Child process with pid: 10093 was killed by signal: 15, core dumped: no
+[UID:2803][2799] Child process with pid: 10094 was killed by signal: 15, core dumped: no
+[UID:2803][2799] Child process with pid: 10095 was killed by signal: 15, core dumped: no
+[UID:2803][26924] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:2803][26924] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:2803][26924] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:2803][26924] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
